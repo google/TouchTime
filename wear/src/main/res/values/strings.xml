@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Touch Time</string>
+    <string name="long_press_intro">Dismiss this app with a long press</string>
+
+</resources>

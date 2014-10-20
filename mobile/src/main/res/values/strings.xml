@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Touch Time</string>
+    <string name="instructions">
+        As you slide your finger around the watch face it will vibrate when
+        you touch the hands.
+        \n\nThe vibration will be continuous on the hour hand and pulsed on
+        the minute hand. When the hands are together the pulses will be
+        long-short.
+    </string>
+    <string name="action_settings">Settings</string>
+
+</resources>
