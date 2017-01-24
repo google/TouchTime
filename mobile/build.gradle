@@ -1,19 +1,18 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 20
-    buildToolsVersion "20.0.0"
+    compileSdkVersion 25
+    buildToolsVersion '25.0.0'
 
     defaultConfig {
         applicationId "com.google.corp.syd.mattkwan.touchtime"
-        minSdkVersion 15
-        targetSdkVersion 20
-        versionCode 1
-        versionName "1.0"
+        minSdkVersion 23
+        targetSdkVersion 25
+        versionCode 103
+        versionName "1.03"
     }
     buildTypes {
         release {
-            runProguard false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
@@ -21,6 +20,6 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    wearApp project(':wear')
-    compile 'com.google.android.gms:play-services-wearable:+'
+    wearApp project(path: ':wear', configuration: 'wear1Release')
+    compile 'com.google.android.gms:play-services-wearable:10.0.1'
 }

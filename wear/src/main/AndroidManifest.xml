@@ -15,6 +15,9 @@
             android:label="@string/app_name"
             android:theme="@style/NoDismissTheme" >
 
+            <meta-data
+                android:name="com.google.android.wearable.standalone"
+                android:value="true" />
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

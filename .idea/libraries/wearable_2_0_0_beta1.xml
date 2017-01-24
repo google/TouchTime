@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="wearable-2.0.0-beta1">
+    <CLASSES>
+      <root url="jar:///opt/android-sdk-linux/extras/google/m2repository/com/google/android/wearable/wearable/2.0.0-beta1/wearable-2.0.0-beta1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
